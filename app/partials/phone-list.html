@@ -1,6 +1,6 @@
 <div>
 <div class="container-fluid">
-<h1>Android Devices</h1>
+<h1>Android Devices (NEW)</h1>
 <h2>Special deals this week!</h2>
   <div class="row-fluid">
     <div class="span2">
@@ -22,7 +22,7 @@
 				<li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail" style="height:200px; background-color:#aaaaaa;">
 				  <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
 				  <b><span style="font-size:16pt;">{{phone.name}}</span></b>
-				  <p>{{phone.snippet}}</p>
+				  <i><p>{{phone.snippet}}</p></i>
 				</li>
 			
 		   </ul>	   
